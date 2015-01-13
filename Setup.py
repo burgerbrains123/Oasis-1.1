@@ -46,4 +46,13 @@ file = open(DESKTOP_PATH + "Oasis.bat", "w")
 file.write("@echo off" + "\n" + "color 17" + "\n" + "cls" + "\n" + "cd.." + "\n" + "cd.." + "\n" + "cd.." + "\n" + "cd.." + "\n" + "cd Oasis" + "\n" + "cd Main" + "\n" + "start Main.py")
 file.close()
 
-print ("Installation step 3 (Setting up)")
+print ("Installation step 3 (Setting up main program.)")
+print ("a website will open with a link to a file that i need you to download ")
+print("(it holds all of the commands)")
+print ("please follow the instructions on the website to help you download it.")
+print ("YOU MUST JUST PUT IT ON THE DESKTOP.")
+print ("there will be a program in it that i want you to click.")
+print ("it will then notify you of what to do from there.")
+
+file = open("c/Oasis/FTIF/ ROFD.html", "w")
+file
