@@ -13,7 +13,7 @@ name = (input("What is your Prefered Name? "))
 os.system("cd\")
 os.system("mkdir Oasis")
 os.system("cd Oasis")
-os.system("mkdir FTIF") #FTIF means first time instalation files
+os.system("mkdir FTIF") #FTIF means first time installation files
 os.system("cd FTIF")
 
 file = open("c/Oasis/FTIF/ netuser.bat", "w")
@@ -31,7 +31,7 @@ print("Installation step 2 (creating Dump File)")
 os.system("cd..")
 os.system("mkdir Dump_Files")
 
-file = open("c/Oasis/Dump_Files/ Preffered_Name_and_UserName.txt", "w")
+file = open("c/Oasis/Dump_Files/ Preferred_Name_and_UserName.txt", "w")
 file.write(name + "\n" + USER + "\n")
 file.close()
 
@@ -47,12 +47,9 @@ file.write("@echo off" + "\n" + "color 17" + "\n" + "cls" + "\n" + "cd.." + "\n"
 file.close()
 
 print ("Installation step 3 (Setting up main program.)")
-print ("a website will open with a link to a file that i need you to download ")
-print("(it holds all of the commands)")
-print ("please follow the instructions on the website to help you download it.")
-print ("YOU MUST JUST PUT IT ON THE DESKTOP.")
-print ("there will be a program in it that i want you to click.")
-print ("it will then notify you of what to do from there.")
 
-file = open("c/Oasis/FTIF/ ROFD.html", "w")
-file
+os.system("cd\")
+os.system("cd Oasis")
+os.system("mkdir Main")
+file = open("c/Oasis/Main/ Main.py")
+file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "      ) #<--- needs more work
