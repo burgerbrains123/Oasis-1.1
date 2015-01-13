@@ -6,4 +6,44 @@ print ("Hello and welcome to Oasis 1.1 (Alpha)")
 os.system("pause")
 os.system("color 17")
 os.system("cls")
-NOT FINISHED
+print("Installation step 1")
+os.system("pause")
+name = (input("What is your Prefered Name? "))
+
+os.system("cd\")
+os.system("mkdir Oasis")
+os.system("cd Oasis")
+os.system("mkdir FTIF") #FTIF means first time instalation files
+os.system("cd FTIF")
+
+file = open("c/Oasis/FTIF/ netuser.bat", "w")
+file.write("@echo off" + "\n" + "color 17" + "\n" + "cls" + "\n" + "echo Here is a list of users" + "\n" + "echo." + "\n" + "netuser" + "\n" + "pause" + "\n" + "exit")
+file.close()
+os.system("start netuser.bat")
+
+print ("Stop " + name + "! dont close the program that just came up. it has a list")
+print ("of users on this computer please type in your Username exactly as")
+print ("it is spelt in the list")
+USER = (input(": "))
+os.system("pause")
+print("Installation step 2 (creating Dump File)")
+
+os.system("cd..")
+os.system("mkdir Dump_Files")
+
+file = open("c/Oasis/Dump_Files/ Preffered_Name_and_UserName.txt", "w")
+file.write(name + "\n" + USER + "\n")
+file.close()
+
+print("Installation step 2 (creating shortcuts)")
+
+DESKTOP_PATH = ("c/Users/" + USER + "/Desktop/ ")
+
+os.system("cd\")
+os.system("cd Oasis")
+os.system("mkdir Main")
+file = open(DESKTOP_PATH + "Oasis.bat", "w")
+file.write("@echo off" + "\n" + "color 17" + "\n" + "cls" + "\n" + "cd.." + "\n" + "cd.." + "\n" + "cd.." + "\n" + "cd.." + "\n" + "cd Oasis" + "\n" + "cd Main" + "\n" + "start Main.py")
+file.close()
+
+print ("Installation step 3 (Setting up)")
