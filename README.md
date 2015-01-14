@@ -1,6 +1,8 @@
 # Oasis-1.1
 A work in progress operating system
 
+# basic commands:
+
 sn = start notepad.exe
 
 sc = start cmd
