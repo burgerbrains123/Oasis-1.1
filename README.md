@@ -3,18 +3,22 @@ A work in progress operating system
 
 # basic commands:
 
-sn = start notepad.exe
+SN = start notepad.exe
 
-sc = start cmd
+SC = start cmd
 
-cp = opens the user manipulation program
+CP = opens the user manipulation program
 
-uw = unpacks the net user prompt (for use with customized user profile)
+UW = unpacks the net user prompt (for use with customized user profile)
 
-mup = makes a customized user profile
+MUP = makes a customized user profile
 
-cupn = changes user profiles name (will require a password)
+CUPN = changes user profiles name (will require a password)
 
-od = will open a diary were you can add the days events
+OD = will open a diary were you can add the days events
+
+EXIT = closes the command prompt
+
+COMMANDS MUST BE TYPED WITH CAPITALS
 
 # Date due for completion 20/01/15
