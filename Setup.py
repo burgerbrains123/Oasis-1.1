@@ -52,4 +52,7 @@ os.system("cd\")
 os.system("cd Oasis")
 os.system("mkdir Main")
 file = open("c/Oasis/Main/ Main.py")
-file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "COMMAND = (input("enter command: "))" + "\n" + "if COMMAND==OD:" + "\n" + "    os.system("start OD.py")" + "\n" + "if COMMAND==SC:" + "\n" + "    os.system("start cmd.exe")" + "\n" + "if COMMAND==SN:" + "\n" + "    os.system("start notepad.exe")" + "\n" + "if COMMAND==CP:" + "\n" + "    os.system("start CP.py")" + "\n" + "if CCOMMAND==MUP:" + "\n" + "    os.system("start MUP.py")" + "\n" + "if COMMAND==CUPN:" + "\n" + "    os.system("start CUPN.py")" + "\n" + "os.system("pause")" + "\n" + "if COMMAND==exit:" + "\n" + "    os"print("invalid choic")
+file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "COMMAND = (input("enter command: "))" + "\n" + "if COMMAND==OD:" + "\n" + "    os.system("start OD.py")" + "\n" + "if COMMAND==SC:" + "\n" + "    os.system("start cmd.exe")" + "\n" + "if COMMAND==SN:" + "\n" + "    os.system("start notepad.exe")" + "\n" + "if COMMAND==CP:" + "\n" + "    os.system("start CP.py")" + "\n" + "if CCOMMAND==MUP:" + "\n" + "    os.system("start MUP.py")" + "\n" + "if COMMAND==CUPN:" + "\n" + "    os.system("start CUPN.py")" + "\n" + "os.system("pause")" + "\n" + "if COMMAND==exit:" + "\n" + "    os.system("exit")" + "\n" + "print("invalid choice")" + "\n" + "os.system("pause")" + "\n" + "os.system("start Main.py")" + "\n" + "os.system("exit")")
+file.close()
+
+#still need to make the individual programs for the commands.
