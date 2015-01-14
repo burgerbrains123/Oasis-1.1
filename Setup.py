@@ -52,5 +52,4 @@ os.system("cd\")
 os.system("cd Oasis")
 os.system("mkdir Main")
 file = open("c/Oasis/Main/ Main.py")
-file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "      ) #<--- needs more work
-delete this line
+file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "COMMAND = (input("enter command: "))" + "\n" + "if COMMAND      ) #<----- needs more work
