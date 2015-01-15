@@ -56,4 +56,7 @@ file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "COMMAND = (inp
 file.close()
 
 file = open ("OD.py", "w")
-file.write("import os" + "\n" + "os.system("color 17"))
+file.write("import os" + "\n" + "os.system("color 17")" + "\n" + "date = (input("What is the date"))" + "\n" + "line1 = (input("1/8:"))" + "\n" + "line2 = (input("2/8:"))" + "\n" + "line3 = (input("3/8:"))" + "\n" + "line4 = (input("4/8:"))" + "\n" + "line5 = (input("5/8:"))" + "\n" + "line6 = (input("6/8:"))" + "\n" + "line7 = (input("7/8:"))" + "\n" + "line8 = (input("8/8:"))" + "\n" + "file = open("DIARY.txt", "w")" + "\n" + "file.write(date + "\n" + line1 + "\n" + line2 + "\n" + line3 + "\n" + line4 + "\n" + line5 + "\n" + line6 + "\n" + line7 + "\n" + line8 + "\n" + "----------------------------" + "\n"))
+file.close()
+
+file = open ("")
