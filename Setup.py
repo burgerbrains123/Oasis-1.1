@@ -17,7 +17,7 @@ os.system("mkdir FTIF") #FTIF means first time installation files
 os.system("cd FTIF")
 
 file = open("c/Oasis/FTIF/ netuser.bat", "w")
-file.write("@echo off" + "\n" + "color 17" + "\n" + "cls" + "\n" + "echo Here is a list of users" + "\n" + "echo." + "\n" + "netuser" + "\n" + "pause" + "\n" + "exit")
+file.write("@echo off" + "\n" + "color 17" + "\n" + "cls" + "\n" + "echo Here is a list of users" + "\n" + "echo." + "\n" + "net user" + "\n" + "pause" + "\n" + "exit")
 file.close()
 os.system("start netuser.bat")
 
